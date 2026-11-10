@@ -27,10 +27,7 @@ field. It breaks inversion symmetry while preserving time-reversal symmetry.
 
 The code solves the extended moiré Hubbard Hamiltonian
 
-$$H = -t\sum_{\langle i,j\rangle}\left[c^\dagger_{i\uparrow}c_{j\uparrow}e^{i\phi}
-+ c^\dagger_{i\downarrow}c_{j\downarrow}e^{-i\phi} + \text{h.c.}\right]
-+ U_0\sum_i n_{i\uparrow}n_{i\downarrow}
-+ U_1\sum_{\langle i,j\rangle} n_i n_j - \mu\sum_i n_i$$
+$$H = -t\sum_{\langle i,j\rangle}\left[c^\dagger_{i\uparrow}c_{j\uparrow}e^{i\phi} + c^\dagger_{i\downarrow}c_{j\downarrow}e^{-i\phi} + \mathrm{h.c.}\right] + U_0\sum_i n_{i\uparrow}n_{i\downarrow} + U_1\sum_{\langle i,j\rangle} n_i n_j - \mu\sum_i n_i$$
 
 on a **quasi-1D triangular ladder** with open boundary conditions, where
 
